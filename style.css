@@ -1,0 +1,78 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    clear:left;
+}
+
+.attribution a {
+    color: white;
+}
+
+
+.description{
+    padding:30px 20px 30px 30px ; 
+    line-height: 1.6;
+    word-spacing: 5px;
+    
+}
+.logo{
+    width:150px;
+        padding:40px 40px 0px 40px;
+        
+}
+body {
+    background-image: url("./images/bg-desktop.svg");
+    background-color: hsl(257, 40%, 49%);
+    color:white;
+    font-family:'Open Sans';
+    font-weight:400;
+
+}
+button{
+    background: white;
+    color:hsl(228, 45%, 44%);
+    width:150px;
+    height:45px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 100px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    margin: 20px;
+}
+button:hover {
+ content: '\00bb';
+    opacity: 1;
+}
+body h1{
+    font-family:Poppins;
+    font-weight:700;
+    padding-top:30px;
+    word-spacing: normal;
+}
+.illustration{
+    width:650px;
+    height:450px;
+    padding:50px;
+    display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  float:left;
+}
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    border-radius:50%;
+    border:1px solid white;
+    margin:3px 6px;
+    float:right;
+  }
+.icons{
+    padding-right:55px;
+    padding-top:10px
+}
